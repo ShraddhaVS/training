@@ -5,12 +5,7 @@ void add(int a, int b)
 int c=a+b;
 System.out.println(c);
 }
-int add(int a, int b)
-{
-int c=a+b;
 
-return c;
-}
 void add(double a, int b)
 {
 double c=a+b;
@@ -27,7 +22,6 @@ C3c c1=new C3c();
 c1.add(1,2);
 c1.add(1.1,2);
 c1.add(1,2,3);
-int d=c1.add(1+2);
-System.out.println(d);
+
 }
 }
